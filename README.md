@@ -26,3 +26,19 @@ M-x run-scheme-with-sicm
 ```
 
 You can interact with the repl using [these commands.](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/GNU-Emacs-Interface.html)
+
+## Gotchas
+
+You will often be prompted to type things like 
+
+```scheme
+;; Does not work
+(RESTART 1)
+```
+
+For reasons unknown, this will not work. You need to type `restart`, no caps:
+
+```scheme
+;; Does work
+(restart 1)
+``` 
