@@ -1,6 +1,6 @@
 # Dockerized mit-scheme in Emacs with scmutils
 
-For ["Structure and Interpretation of Classical Mechanics"](http://www.fisica.net/mecanicaclassica/struture_and_interpretation_of_classical_mechanics_by_gerald_jay_sussman.pdf) (SICM) by Wisdom and Sussman.
+For [Structure and Interpretation of Classical Mechanics](http://www.fisica.net/mecanicaclassica/struture_and_interpretation_of_classical_mechanics_by_gerald_jay_sussman.pdf) (SICM) by Wisdom and Sussman.
 
 SICM teaches classical mechanics using notation so unambiguous that it can be 
 transliterated to a computer program, and I find that that makes it much easier
@@ -14,7 +14,7 @@ machines.
 ## Usage
 
 ```bash
-docker run -i -t -v /path/to/workdir:/work apatil:docker-sicm
+docker run -i -t -v /path/to/workdir:/work apatil/docker-sicm
 ```
 
 This command will run the image and drop you in an Emacs session. To run an MIT 
