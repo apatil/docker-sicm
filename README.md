@@ -25,7 +25,7 @@ package (a requirement for running the SICM examples) preloaded, do
 M-x run-scheme-with-sicm
 ```
 
-You can interact with the repl using [these commands.](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/GNU-Emacs-Interface.html)
+You can interact with the repl using [these commands.](http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/GNU-Emacs-Interface.html) You may find it convenient to [split the window](https://www.cs.utah.edu/dept/old/texinfo/emacs19/emacs_21.html).
 
 ## Gotchas
 
